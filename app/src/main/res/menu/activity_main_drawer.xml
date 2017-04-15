@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/icon_payment_normal"
+            android:title="Payment" />
+        <item
+            android:id="@+id/jobhis"
+            android:icon="@drawable/icon_job_normal"
+            android:title="Job History" />
+        <item
+            android:id="@+id/emcontacts"
+            android:icon="@drawable/icon_emergency_normal"
+            android:title="Emergency Contacts" />
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/icon_help_normal"
+            android:title="Help" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/icon_logout_normal"
+            android:title="Logout" />
+    </group>
+
+
+</menu>
